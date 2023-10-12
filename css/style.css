@@ -72,3 +72,9 @@ button:active {
 body {
     font-family: monospace; 
 }
+
+@media screen and (max-width: 768px) {
+header {
+    font-size: 20px;
+}
+}

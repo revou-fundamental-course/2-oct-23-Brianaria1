@@ -12,6 +12,19 @@ header {
     flex-direction: column;
 }
 
+#conversion-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#text-equation {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 16px;
+}
+
 label {
     display: block;
     margin-bottom: 4px;

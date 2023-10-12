@@ -12,14 +12,26 @@
     </header>
 <main>
     <section class="input-section">
-    <label for="input-field">Celcius</label>
-    <input id="input-field" type="number" placeholder="0">
+    <label for="celcius">Celcius</label>
+    <input id="celcius" type="number" placeholder="0">
     <div id="input-button">
-        <button>Konversi</button>
-        <button>Reset</button>
-        <button>Reverse</button>
+        <button type="button" onclick="fah()">Konversi ke Fahrenheit</button>
+        <button type="button" onclick="reset()" value="reset">Reset Calculator</button>
     </div>
     </section>
+    <section class="input-section">
+    <label for="fahrenheit">Fahrenheit</label>
+    <input id="fahrenheit" type="number" placeholder="0">
+    <div id="input-button">
+        <button type="button" onclick="cel()">Konversi ke Celcius</bubton>
+        <button type="button" onclick="reverse()" value="reverse">Reverse Calculator</button>
+    </div>
+</section>
+<section id="conversion-info">
+    <h2>Cara Kalkulasi</h2>
+    <p id="equation-text"></p>
+</section>
 </main>
+<script src="js/script.js"></script>
 </body>
 </html>
